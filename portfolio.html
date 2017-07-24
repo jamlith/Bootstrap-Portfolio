@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<HTML>
+  <HEAD>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <style type="text/css">
+      body {
+        background-image: url("assets/images/bg.png")
+      }
+      .navbar-default {
+        background-color: #fff;
+      }
+      #navbar-name {
+        background-color: #4aaaa5;
+        margin-left: 100px;
+        color: #fff;
+      }
+      .connect-icon {
+        width: 100%;
+        opacity: .5;
+        transition-property: opacity;
+        transition-duration: .5s;
+        transition-timing-function: linear;
+        max-width: 100px;
+      }
+      .connect-icon:hover {
+        opacity: 1;
+      }
+      .img-rounded {
+        width: 100%;
+      }
+      .pfbox {
+        width: 100%;
+        opacity: .4;
+        transition-property: opacity;
+        transition-duration: 1s;
+        transition-timing-function: linear;
+      }
+      .pflabel {
+        height: 50px;
+        background-color: #4aaaa5;
+        text-align: center;
+        color: #fff;
+        font-size: 18px;
+        margin: auto 0px 0px 0px;
+        width: 100%;
+        padding: 5px;
+        position: relative;
+        bottom: 5em;
+        opacity: .8;
+      }
+
+      .pfbox:hover {
+        opacity: 1;
+        background-color: #3f6fec;
+        text-decoration: none;
+
+      }
+      </hgroup>
+    </style>
+    <TITLE>James Litherland: Bootstrap Portfolio</TITLE>
+
+  </HEAD>
+  <BODY>
+    <!-- NAV BEGIN //-->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" id="navbar-name" href="#">
+            James Litherland
+          </a>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="index.html">About me</a></li>
+            <li class="active"><a href="#">Portfolio<span class="sr-only">(current)</span></a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+      </div>
+    </nav>
+    <!-- NAV END -->
+    <div class="container">
+        <div class="row">
+            <div class=" col-md-offset-1 col-md-7 col-xs-12">
+                <div class="panel panel-default">
+                  <div class="panel-heading">
+                    Portfolio
+                  </div>
+                  <div class="panel-body">
+                    <div class="row">
+                      <div class="col-md-4 col-xs-6">
+                        <a href="#" class="pfbox">
+                          <img src="http://lorempixel.com/200/200/cats/" class="img-rounded">
+                          <div class="pflabel">
+                              Trivia Game
+                          </div>
+                        </a>
+                      </div>
+                      <div class="col-md-4 col-xs-6">
+                      <a href="#" class="pfbox">
+                        <img src="http://lorempixel.com/200/200/nightlife/" class="img-rounded">
+                        <div class="pflabel">
+                            Rutgers Info Widget
+                        </div>
+                      </a>                      </div>
+                      <div class="col-md-4 col-xs-6 hidden-sm">
+                      <a href="#" class="pfbox">
+                        <img src="http://lorempixel.com/200/200/sports/" class="img-rounded">
+                        <div class="pflabel">
+                            Hangman
+                        </div>
+                      </a>                      </div>
+                    </div>
+                    <div class="row">
+                      <div class="col-md-4 col-xs-6">
+                      <a href="#" class="pfbox">
+                        <img src="http://lorempixel.com/200/200/city/" class="img-rounded">
+                        <div class="pflabel">
+                            Rock, Paper, Scissors
+                        </div>
+                      </a>                      </div>
+                      <div class="col-md-4 col-xs-6">
+                      <a href="#" class="pfbox">
+                        <img src="http://lorempixel.com/200/200/people/" class="img-rounded">
+                        <div class="pflabel">
+                            RPG Game
+                        </div>
+                      </a>                      </div>
+                    </div>
+                      <!-- </div> -->
+                    <div class="row visible-sm">
+                      <div class="col-xs-6">
+                      <a href="#" class="pfbox">
+                        <img src="http://lorempixel.com/200/200/sports/" class="img-rounded">
+                        <div class="pflabel">
+                            Hangman
+                        </div>
+                      </a>                      </div>
+                    </div>
+              </div>
+            </div>
+          </div>
+            <div class="col-md-3 col-xs-12">
+              <div class="panel panel-default">
+                <div class="panel-heading text-center">Connect with me...</div>
+                <!-- <div class="panel-heading text-center" style="background-color: #4aaaa5; color: #fff;"><h4>Connect with me...</h4></div> -->
+
+              <div class="panel-body">
+                <div class="row">
+                  <div class="col-md-4 col-xs-4">
+                    <a href="#"><img src="assets/images/con1.png" class="connect-icon"></a>
+                  </div>
+                  <div class="col-md-4 col-xs-4">
+                    <a href="#"><img src="assets/images/con2.png" class="connect-icon"></a>
+                  </div>
+                  <div class="col-md-4 col-xs-4">
+                    <a href="#"><img src="assets/images/con3.png" class="connect-icon"></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+    </div>
+  </div>
+    <!-- Container END -->
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </BODY>
+
+</HTML>
